@@ -74,7 +74,7 @@ def main():
         start_game(driver)
         play_game(driver)
     finally:
-        time.sleep(30)
+        time.sleep(120)
         driver.quit()
 
 if __name__ == "__main__":
